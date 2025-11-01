@@ -17,7 +17,9 @@ function RestaurantDashboard() {
               {
                 isSidebarOpen && (
                   <div className="fixed inset-0 z-50 lg:hidden">
-                    <div className="absulute"></div>
+                     <div className="absolute inset-0 bg-zinc-900/50">
+
+                     </div>
                   </div>
                 )
               }
