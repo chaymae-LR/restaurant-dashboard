@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/SuperElectro/Desktop/Next.js/restaurant-dashboard/app/page.tsx"],"sourcesContent":["import RestaurantDashboard from \"@/components/dashboard\";\n\n\nexport default function Home() {\n  return <RestaurantDashboard />;\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAGe,SAAS;IACtB,qBAAO,8OAAC,mIAAmB;;;;;AAC7B","debugId":null}}]
-}
