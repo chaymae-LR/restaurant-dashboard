@@ -19,23 +19,29 @@ function RestaurantDashboard() {
               {
                 isSidebarOpen && (
                   <div className="fixed inset-0 z-50 lg:hidden">
-                     <div className="absolute inset-0 bg-zinc-900/50 backdrop-blur-sm">
+                     <div className="absolute inset-0 bg-zinc-900/50 backdrop-blur-sm" onClick={() => setIsSidebarOpen(false)} />
                        <aside className="absolute left-0 top-0 h-full w-64 border-r border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-950">
                              <div className="flex items-center justify-between border-b  border-zinc-200 p-4 dark:border-zinc-800">
                                   <div className="flex items-center gap-2 ">
                                       <HandPlatter className="h-6 w-6 text-amber-500"/>
                                         <span className="text-lg font-semibold">Gu<span className="text-amber-500">s</span>tia</span>
                                   </div>
-                                  <Button size={"icon"} variant={"ghost"} >
+                                  <Button size={"icon"} variant={"ghost"} onClick={() => setIsSidebarOpen(false)}>
                                           <X className="h-5 w-5" />
                                   </Button>
                              </div>
+                             <SideBareContent />
                        </aside>
-
-                     </div>
                   </div>
                 )
               }
+
+              {/*Contenu principal */}
+              <div className="flex-1">
+                <header className="sticky top-0 z-30 flex h-16">
+
+                </header>
+              </div>
         </div>
     )
 }  

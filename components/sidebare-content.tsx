@@ -24,6 +24,13 @@ function SideBareContent() {
                    </Button>
 
                      <Button className="justify-start" variant={"ghost"} asChild>
+                         <a href="#" className="flex items-center gap-2">
+                              <MenuIcon className="h-4 w-4"/>
+                                   Menu
+                         </a>
+                    </Button>
+                    
+                     <Button className="justify-start" variant={"ghost"} asChild>
                         <a href="#" className="flex items-center gap-2">
                              <ShoppingBag className="h-4 w-4"/>
                               Commandes
@@ -37,12 +44,7 @@ function SideBareContent() {
                         </a>
                    </Button>
 
-                   <Button className="justify-start" variant={"ghost"} asChild>
-                        <a href="#" className="flex items-center gap-2">
-                             <MenuIcon className="h-4 w-4"/>
-                              Menu
-                        </a>
-                   </Button>
+                  
 
                    <Button className="justify-start" variant={"ghost"} asChild>
                         <a href="#" className="flex items-center gap-2">
