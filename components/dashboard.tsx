@@ -38,7 +38,7 @@ function RestaurantDashboard() {
 
               {/*Contenu principal */}
               <div className="flex-1">
-                <header className="sticky top-0 z-30 flex h-16">
+                <header className="sticky top-0 z-30 flex h-16 items-center justify-between border-b border-zinc-200 bg-white/80 px-4">
 
                 </header>
               </div>
